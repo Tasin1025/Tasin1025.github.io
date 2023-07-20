@@ -18,6 +18,22 @@
     border: 0;
 }
 
+.btn2 {
+    padding: 12px 40px;
+    font-weight: 600;
+    background-color: #223645;
+    color: white;
+    border: 0;
+    margin-left: 40px;
+}
+.btn2:hover {
+    padding: 12px 40px;
+    font-weight: 600;
+    background-color: #fbd214;
+    color: white;
+    border: 0;
+}
+
 
 /* header */
 
@@ -26,8 +42,8 @@
     background-image: url("./Tasin.jpg");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-size: 50vw;
-    
+    background-size: 45rem 100vh;
+    height: 100vh;
     
 }
 
@@ -106,7 +122,7 @@ nav a {
 .about-pic {
     border-width: 20px 0px 0px 20px;
     border-style: solid;
-    border-color: #000;
+    border-color: #4C5865;
     margin: 20px;
 }
 .about-pic img {
