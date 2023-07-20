@@ -1,22 +1,99 @@
 * {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
+
+.btn {
+    padding: 12px 40px;
+    font-weight: 600;
+    background-color: #fbd214;
+    color: white;
+    border: 0;
+}
+.btn:hover {
+    padding: 12px 40px;
+    font-weight: 600;
+    background-color: #223645;
+    color: white;
+    border: 0;
+}
+
 
 /* header */
 
+.header{
+    background-color: #000;
+    /* background-image: url("./Tasin.jpg");
+    background-position: right 50%; 
+    background-size: cover; */
+}
+
 nav  {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 20px;
     align-items: center;
 }
 nav > ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    border: 2px solid tomato;
 }
+
 nav li {
     list-style: none;
     margin: 1rem;
+    
 }
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+}
+#logo {
+    padding: 15px;
+}
+.banner {
+    padding: 7rem;
+}
+
+.banner-name {
+    color: white;
+    font-weight: 700;
+    font-size: 62px;
+}
+.banner-title {
+    color: #fbd214;
+    font-weight: 800;
+    font-size: 62px;
+}
+.banner-body {
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* Body  */
+
+/* about me */
+
+.about-me {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about-body {
+    text-align: center;
+    border: 2px solid red;
+}
+.about-title {
+    font-weight: 700;
+    line-height: 64px;
+    font-size: 42px;
+}
+.about-sub {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
