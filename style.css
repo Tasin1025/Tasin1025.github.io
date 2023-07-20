@@ -23,9 +23,12 @@
 
 .header{
     background-color: #000;
-    /* background-image: url("./Tasin.jpg");
-    background-position: right 50%; 
-    background-size: cover; */
+    background-image: url("./Tasin.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 50vw;
+    
+    
 }
 
 nav  {
@@ -82,6 +85,8 @@ nav a {
     gap: 20px;
     align-items: center;
     background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
 .about-body {
