@@ -81,19 +81,32 @@ nav a {
     display: flex;
     gap: 20px;
     align-items: center;
+    background-image: url("./bg.png");
+
 }
 .about-body {
     text-align: center;
-    border: 2px solid red;
+    padding: 25px;
 }
 .about-title {
     font-weight: 700;
     line-height: 64px;
     font-size: 42px;
+    padding: 25px;
 }
 .about-sub {
     font-weight: 400;
     font-size: 20px;
+}
+.about-pic {
+    border-width: 20px 0px 0px 20px;
+    border-style: solid;
+    border-color: #000;
+    margin: 20px;
+}
+.about-pic img {
+    width: 30vw;
+    padding: 40px;
 }
 
 
