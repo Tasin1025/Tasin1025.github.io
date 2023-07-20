@@ -240,3 +240,39 @@ nav a {
     box-shadow: 5px 10px #fbd214;
     width: 100%;
   }
+
+  /*  get in touch */
+
+  .info h5 {
+    font-size: large;
+  }
+  .info p {
+    color: #4C5865;
+  }
+  .info i {
+    font-size: 1em;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+.info {
+    text-align: center;
+    gap: 10px;
+}
+  .form input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    padding: 18px 25px;
+    border: 2px solid #4C5865;
+    font-size: 16px;
+    width: 100%;
+}
+.form  .btn {
+    margin-top: 25px;
+}
