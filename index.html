@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TasinRahman Portfolio</title>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -15,8 +16,8 @@
 </head>
 
 <body>
-  <header class="header">
-    <nav>
+   <header class="header">
+    <!-- <nav> 
       <img src="./Tasin_logo.png" alt="tasin logo" id="logo">
       <ul>
         <li><a href="">Home</a></li>
@@ -26,16 +27,48 @@
         <li><a href="">Contact</a></li>
       </ul>
       <button class="btn">Hire me </button>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="./Tasin_logo.png" width="30" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+
+    
+
+
+
     <div class="banner">
       <h2 class="banner-name">I'm Tasin Rahman</h2>
       <h2 class="banner-title">Web Developer</h2>
       <p class="banner-body">I am a web developer , working over an year with PHP and WordPress .</p>
-      <button class="btn"> Download CV</button>
+      <button class="button"> Download CV</button>
     </div>
   </header>
-
-  <body>
     <!-- about me section -->
     <section class="about-me">
       <div class="about-pic">
@@ -57,7 +90,7 @@
           inspire. Let’s bring your ideas to life and empower your digital presence. Explore my portfolio and let’s
           collaborate to build your next digital masterpiece.
         </p>
-        <button class="btn">HIRE ME NOW </button>
+        <button class="button">HIRE ME NOW </button>
         <button class="btn2">VIEW RESUME</button>
       </div>
     </section>
@@ -161,15 +194,14 @@
             <input type="email" name="" id="" placeholder="Your Email">
             <br>
             <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
-            <button class="btn">Send</button>
+            <button class="button">Send</button>
           </form>
         </div>
       </div>
     </section>
-    <footer>
-      
-    </footer>
-  </body>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
 </html>
