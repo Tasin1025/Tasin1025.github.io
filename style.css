@@ -47,6 +47,16 @@
   border: 0;
   border-radius: 0;
 }
+#hire-me:hover {
+
+  /* padding: 12px 40px; */
+  font-weight: 600;
+  background-color: #223645;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+
 
 /* header */
 
