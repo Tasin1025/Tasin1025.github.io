@@ -305,7 +305,7 @@ textarea {
 .form .button {
   margin-top: 25px;
 }
-
+/*  mobile size */
 
 @media screen and (max-width: 576px) {
   #hire-me {
@@ -313,12 +313,37 @@ textarea {
     padding: 0;
   }
 
+  .header {
+    background-color: #000;
+    background-image: url("./Tasin.jpg");
+    background-repeat: no-repeat;
+    /* background-position-x: 100%; */
+    /* background-size: 45rem 100vh; */
+    /* height: 100vh; */
+    /* background-size: 100%; */
+    background-size: contain;
+  }
+  .banner-title {
+    color: #fbd214;
+    font-weight: 800;
+    font-size: 42px;
+  }
+  .banner {
+  padding: 0;
+}
+
+  .banner-name {
+    color: white;
+    font-weight: 700;
+    font-size: 42px;
+  }
+
   .collapse {
     background-color: #ffffff2d;
   }
 
-
   .navbar-toggler {
+  border: 2px solid white;
     margin: 8px;
   }
 
@@ -405,13 +430,20 @@ textarea {
   .form-container {
     display: flex;
     flex-direction: column;
+    /* width: 100%; */
   }
+
+  
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
   #hire-me {
     width: 40%;
     padding: 0;
+  }
+    .navbar-toggler {
+      border: 2px solid white;
+
   }
 
   .about-me {
