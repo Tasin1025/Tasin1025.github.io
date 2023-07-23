@@ -1,6 +1,7 @@
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0px;
+
 }
 
 .button {
@@ -317,11 +318,10 @@ textarea {
     background-color: #000;
     background-image: url("./Tasin.jpg");
     background-repeat: no-repeat;
-    /* background-position-x: 100%; */
-    /* background-size: 45rem 100vh; */
-    /* height: 100vh; */
-    /* background-size: 100%; */
     background-size: contain;
+
+    height: 100%;
+    width: 100%;
   }
   .banner-title {
     color: #fbd214;
@@ -389,6 +389,11 @@ textarea {
   .about-body button {
     margin: 20px;
   }
+.client{
+  flex-direction: column;
+  height: 100%;
+  
+}
 
   .skill-container {
     display: flex;
